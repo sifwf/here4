@@ -20,6 +20,10 @@ dbase = None
 lm=LoginManager(app)
 lm.login_view="login"
 
+@lm.user_loader
+def load_user(user_id):
+    return LoginUser().getUserFromDb(user_id, dbase)
+
 @app.before_request
 def before_request_func():
     global dbase
@@ -33,18 +37,23 @@ def main():
 
 
 @app.route("/delete")
+@login_required
 def delete():
     return render_template("delete.html",menu=menu)
 
 @app.route("/add")
+@login_required
 def add():
     return render_template("add.html",menu=menu)
 
 @app.route("/exit")
+@login_required
 def exit():
+    logout_user()
     return redirect(url_for("login"))
 
 @app.route("/my_games")
+@login_required
 def my_games():
     return render_template("my_games.html",menu=menu)
 
@@ -68,7 +77,7 @@ def login():
         if check_password_hash(user["password"],password):
             log=LoginUser().create(user)
             login_user(log)
-            return redirect(url_for("base"))
+            return redirect(url_for("main"))
         else:
             flash("wrong password",category="fail")
 
@@ -84,6 +93,7 @@ def register():
         hash_password=generate_password_hash(password)
         if not dbase.check_user(name):
             flash("user already exists",category="fail")
+            return redirect(url_for("register"))
 
         dbase.add_user(name,hash_password)
         return redirect(url_for("login"))

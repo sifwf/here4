@@ -23,5 +23,10 @@
     <div class="button">{{form.submit()}}</div>
 </form>
 <p class="link_reg">dont have account? <a href="/register" >register</a></p>
+
+    {%for cat, msg in get_flashed_messages(True)%}
+      <div class="flash-{{cat}}">{{msg}}</div>
+    {%endfor%}
+
 </div>
 {% endblock %}
