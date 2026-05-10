@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/main.css">
+    </head>
+    <body>
+        <ul class="main_menu">
+        {% for name,link in menu.items() %}
+        <li>
+            <a href="{{link}}">{{name}}</a>
+        </li>
+        
+        {% endfor %}
+        </ul>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

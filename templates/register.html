@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="form_cont">
+    <h1 class="head">Register</h1>
+<form class="auth" action="/register" method="post" novalidate>
+    {{form.hidden_tag()}}
+    <div class="form">{{form.name()}}</div>
+    {%if form.name.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.name.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="form">{{form.password()}}</div>
+    {%if form.password.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.password.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="form">{{form.password2()}}</div>
+    {%if form.password2.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.password2.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="button">{{form.submit()}}</div>
+
+    {%for cat, msg in get_flashed_messages(True)%}
+      <div class="flash-{{cat}}">{{msg}}</div>
+    {%endfor%}
+
+</form>
+</div>
+{% endblock %}

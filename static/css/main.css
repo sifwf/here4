@@ -1,0 +1,140 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E293B;
+}
+.main_page{
+    background: linear-gradient(135deg, #1e3a5f 0%, #0d1117 100%);
+    color: #F1F5F9;
+    border-radius: 15px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+
+    
+
+}
+.main_page ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    
+
+}
+
+.main_page li{
+    margin-bottom: 6px;
+    padding-left: 20px;
+}
+.main_page li::before{
+    content: "→";
+    color: #38bdf8;
+    margin-right: 5px;
+}
+
+.main_page h2{
+    text-align: center;
+
+}
+.main_page a{
+    text-decoration: none;
+    color: dodgerblue;
+
+}
+.main_page a:hover{
+    color: orange
+}
+
+
+.main_menu{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center; 
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.main_menu li a{
+    padding: 15px 70px;
+    margin: 0px;
+    text-decoration: none;
+    color: #F1F5F9;
+    background-color: #6366F1;
+    font-weight: bold;
+}
+.main_menu li a:hover{
+    background-color: orange;
+}
+.main_menu li:first-child a{
+    border-bottom-left-radius: 10px;
+}
+.main_menu li:last-child a{
+    border-bottom-right-radius: 10px;
+}
+.form_cont{
+    background: linear-gradient(135deg, #1e3a5f 0%, #0d1117 100%);
+    color: #F1F5F9;
+    border-radius: 15px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.auth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.form input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.button input{
+    width: 100px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+
+}
+.button input:hover{
+    color: #F1F5F9;
+    background-color:orange; 
+}
+.form input:focus{
+    background-color:#6366F1;
+    color:rgb(253, 172, 73);
+}
+.form input:focus::placeholder{
+    color:#38bdf8 ;
+}
+.invalid-feedback{
+    color: red;
+    font-size: 16px;
+}
+.link_reg a{
+    text-decoration: none;
+    color: #6366F1;
+}
+.link_reg a:hover{
+    color: orange;
+}
+.flash-fail{
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}

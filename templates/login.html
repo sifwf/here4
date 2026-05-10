@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="form_cont">
+    <h1 class="head">Login</h1>
+<form class="auth" action="/login" method="post" novalidate>
+    {{form.hidden_tag()}}
+    <div class="form">{{form.name()}}</div>
+    {%if form.name.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.name.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="form">{{form.password()}}</div>
+    {%if form.password.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.password.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="button">{{form.submit()}}</div>
+</form>
+<p class="link_reg">dont have account? <a href="/register" >register</a></p>
+</div>
+{% endblock %}
