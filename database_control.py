@@ -29,5 +29,10 @@ class Flaskdb:
             return False
         else:
             return res
+        
+    def add_games(self,name,price,desc,release,photo):
+        self.__cur.execute("INSERT INTO games (name,price,desc,release,photo) VALUES (?,?,?,?,?)",
+                           (name,price,desc,release,photo))
+        self.__db.commit()
     
     

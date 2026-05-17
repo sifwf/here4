@@ -3,7 +3,7 @@ import sqlite3
 import logging
 from config import menu
 from database_control import Flaskdb
-from forms import Register_form,Login_form
+from forms import Register_form,Login_form,Games_form
 from flask_db import get_db
 from werkzeug.security import check_password_hash,generate_password_hash
 from flask_login import login_user,logout_user,login_required,current_user,LoginManager
@@ -41,10 +41,19 @@ def main():
 def delete():
     return render_template("delete.html",menu=menu)
 
-@app.route("/add")
+@app.route("/add",methods=["POST","GET"])
 @login_required
 def add():
-    return render_template("add.html",menu=menu)
+    form=Games_form()
+    if form.validate_on_submit():
+        name=request.form["name"]
+        price=request.form["price"]
+        desc=request.form["desc"]
+        release=request.form["release"]
+        photo=request.files["photo"]
+        blob=photo.read()
+        
+    return render_template("add.html",menu=menu,form=form)
 
 @app.route("/exit")
 @login_required

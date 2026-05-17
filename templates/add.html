@@ -1,3 +1,49 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="form_cont">
+    <h1 class="head">games</h1>
+<form class="auth" action="/add" method="post" novalidate>
+    {{form.hidden_tag()}}
+    <div class="form">{{form.name()}}</div>
+    {%if form.name.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.name.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="form">{{form.price()}}</div>
+    {%if form.price.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.price.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="form">{{form.desc()}}</div>
+    {%if form.desc.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.desc.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+        <div class="form">{{form.release()}}</div>
+    {%if form.release.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.release.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+        <div class="form">{{form.photo()}}</div>
+    {%if form.photo.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.photo.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="button">{{form.submit()}}</div>
+    </div>
 {% endblock %}
