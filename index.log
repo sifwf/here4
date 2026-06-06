@@ -1256,3 +1256,568 @@
 2026-05-17 13:20:30,091 - INFO -  * Restarting with stat
 2026-05-17 13:20:30,311 - WARNING -  * Debugger is active!
 2026-05-17 13:20:30,312 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:24:31,636 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-17 13:24:31,657 - INFO -  * Restarting with stat
+2026-05-17 13:24:31,861 - WARNING -  * Debugger is active!
+2026-05-17 13:24:31,863 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:26:24,969 - INFO - 127.0.0.1 - - [17/May/2026 13:26:24] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2026-05-17 13:26:25,015 - INFO - 127.0.0.1 - - [17/May/2026 13:26:25] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:26:25,015 - INFO - 127.0.0.1 - - [17/May/2026 13:26:25] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-17 13:26:25,025 - INFO - 127.0.0.1 - - [17/May/2026 13:26:25] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=OtcjRcr9eIyemqnrPVOy HTTP/1.1" 200 -
+2026-05-17 13:27:57,932 - INFO - 127.0.0.1 - - [17/May/2026 13:27:57] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2026-05-17 13:27:57,938 - INFO - 127.0.0.1 - - [17/May/2026 13:27:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:27:57,938 - INFO - 127.0.0.1 - - [17/May/2026 13:27:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-17 13:27:57,944 - INFO - 127.0.0.1 - - [17/May/2026 13:27:57] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=OtcjRcr9eIyemqnrPVOy HTTP/1.1[0m" 304 -
+2026-05-17 13:28:23,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-17 13:28:23,448 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 13:28:23,448 - INFO -  * Restarting with stat
+2026-05-17 13:28:23,654 - WARNING -  * Debugger is active!
+2026-05-17 13:28:23,655 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:28:28,311 - INFO - 127.0.0.1 - - [17/May/2026 13:28:28] "GET / HTTP/1.1" 200 -
+2026-05-17 13:28:28,365 - INFO - 127.0.0.1 - - [17/May/2026 13:28:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:28:30,737 - INFO - 127.0.0.1 - - [17/May/2026 13:28:30] "GET /add HTTP/1.1" 200 -
+2026-05-17 13:28:30,743 - INFO - 127.0.0.1 - - [17/May/2026 13:28:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:28:46,629 - INFO - 127.0.0.1 - - [17/May/2026 13:28:46] "POST /add HTTP/1.1" 200 -
+2026-05-17 13:28:46,636 - INFO - 127.0.0.1 - - [17/May/2026 13:28:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:30:05,466 - INFO - 127.0.0.1 - - [17/May/2026 13:30:05] "GET /my_games HTTP/1.1" 200 -
+2026-05-17 13:30:05,472 - INFO - 127.0.0.1 - - [17/May/2026 13:30:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:36:51,327 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-17 13:36:51,350 - INFO -  * Restarting with stat
+2026-05-17 13:36:51,568 - WARNING -  * Debugger is active!
+2026-05-17 13:36:51,569 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:38:02,669 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-17 13:38:02,691 - INFO -  * Restarting with stat
+2026-05-17 13:38:02,908 - WARNING -  * Debugger is active!
+2026-05-17 13:38:02,909 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:38:04,489 - INFO - 127.0.0.1 - - [17/May/2026 13:38:04] "GET /my_games HTTP/1.1" 200 -
+2026-05-17 13:38:04,519 - INFO - 127.0.0.1 - - [17/May/2026 13:38:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:38:05,681 - INFO - 127.0.0.1 - - [17/May/2026 13:38:05] "GET /add HTTP/1.1" 200 -
+2026-05-17 13:38:05,688 - INFO - 127.0.0.1 - - [17/May/2026 13:38:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:38:29,260 - INFO - 127.0.0.1 - - [17/May/2026 13:38:29] "POST /add HTTP/1.1" 200 -
+2026-05-17 13:38:29,266 - INFO - 127.0.0.1 - - [17/May/2026 13:38:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:40:52,141 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-17 13:40:52,164 - INFO -  * Restarting with stat
+2026-05-17 13:40:52,375 - WARNING -  * Debugger is active!
+2026-05-17 13:40:52,376 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:41:03,662 - INFO - 127.0.0.1 - - [17/May/2026 13:41:03] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2026-05-17 13:41:03,706 - INFO - 127.0.0.1 - - [17/May/2026 13:41:03] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-17 13:41:03,707 - INFO - 127.0.0.1 - - [17/May/2026 13:41:03] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:41:03,723 - INFO - 127.0.0.1 - - [17/May/2026 13:41:03] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=xEpVp6FoZhfJ0xA4mRzY HTTP/1.1" 200 -
+2026-05-17 13:43:43,601 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\login_user.py', reloading
+2026-05-17 13:43:43,623 - INFO -  * Restarting with stat
+2026-05-17 13:43:43,845 - WARNING -  * Debugger is active!
+2026-05-17 13:43:43,846 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:43:50,766 - INFO - 127.0.0.1 - - [17/May/2026 13:43:50] "GET / HTTP/1.1" 200 -
+2026-05-17 13:43:50,796 - INFO - 127.0.0.1 - - [17/May/2026 13:43:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:43:51,454 - INFO - 127.0.0.1 - - [17/May/2026 13:43:51] "GET /add HTTP/1.1" 200 -
+2026-05-17 13:43:51,459 - INFO - 127.0.0.1 - - [17/May/2026 13:43:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:44:05,733 - INFO - 127.0.0.1 - - [17/May/2026 13:44:05] "POST /add HTTP/1.1" 200 -
+2026-05-17 13:44:05,739 - INFO - 127.0.0.1 - - [17/May/2026 13:44:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:48:18,214 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-17 13:48:18,236 - INFO -  * Restarting with stat
+2026-05-17 13:48:18,463 - WARNING -  * Debugger is active!
+2026-05-17 13:48:18,465 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:49:06,537 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-17 13:49:06,558 - INFO -  * Restarting with stat
+2026-05-17 13:49:06,779 - WARNING -  * Debugger is active!
+2026-05-17 13:49:06,780 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:49:26,054 - INFO - 127.0.0.1 - - [17/May/2026 13:49:26] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2026-05-17 13:49:26,091 - INFO - 127.0.0.1 - - [17/May/2026 13:49:26] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-17 13:49:26,097 - INFO - 127.0.0.1 - - [17/May/2026 13:49:26] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:49:26,104 - INFO - 127.0.0.1 - - [17/May/2026 13:49:26] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=4x5QIHhH8PntS7DjYNMX HTTP/1.1" 200 -
+2026-05-17 13:50:08,869 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-17 13:50:08,892 - INFO -  * Restarting with stat
+2026-05-17 13:50:09,108 - WARNING -  * Debugger is active!
+2026-05-17 13:50:09,110 - INFO -  * Debugger PIN: 398-144-230
+2026-05-17 13:50:20,705 - INFO - 127.0.0.1 - - [17/May/2026 13:50:20] "GET / HTTP/1.1" 200 -
+2026-05-17 13:50:20,733 - INFO - 127.0.0.1 - - [17/May/2026 13:50:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:50:21,221 - INFO - 127.0.0.1 - - [17/May/2026 13:50:21] "GET /add HTTP/1.1" 200 -
+2026-05-17 13:50:21,226 - INFO - 127.0.0.1 - - [17/May/2026 13:50:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:50:32,178 - INFO - 127.0.0.1 - - [17/May/2026 13:50:32] "POST /add HTTP/1.1" 200 -
+2026-05-17 13:50:32,184 - INFO - 127.0.0.1 - - [17/May/2026 13:50:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-17 13:52:06,690 - INFO - 127.0.0.1 - - [17/May/2026 13:52:06] "POST /add HTTP/1.1" 200 -
+2026-05-17 13:52:06,695 - INFO - 127.0.0.1 - - [17/May/2026 13:52:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:10:49,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-23 13:10:49,053 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-23 13:10:49,054 - INFO -  * Restarting with stat
+2026-05-23 13:10:49,303 - WARNING -  * Debugger is active!
+2026-05-23 13:10:49,306 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:10:54,162 - INFO - 127.0.0.1 - - [23/May/2026 13:10:54] "GET / HTTP/1.1" 200 -
+2026-05-23 13:10:54,260 - INFO - 127.0.0.1 - - [23/May/2026 13:10:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:11:00,888 - INFO - 127.0.0.1 - - [23/May/2026 13:11:00] "[32mGET /exit HTTP/1.1[0m" 302 -
+2026-05-23 13:11:00,900 - INFO - 127.0.0.1 - - [23/May/2026 13:11:00] "GET /login?next=/exit HTTP/1.1" 200 -
+2026-05-23 13:11:00,906 - INFO - 127.0.0.1 - - [23/May/2026 13:11:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:11:05,520 - INFO - 127.0.0.1 - - [23/May/2026 13:11:05] "GET /register HTTP/1.1" 200 -
+2026-05-23 13:11:05,527 - INFO - 127.0.0.1 - - [23/May/2026 13:11:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:11:24,044 - INFO - 127.0.0.1 - - [23/May/2026 13:11:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-23 13:11:24,048 - INFO - 127.0.0.1 - - [23/May/2026 13:11:24] "GET /login HTTP/1.1" 200 -
+2026-05-23 13:11:24,054 - INFO - 127.0.0.1 - - [23/May/2026 13:11:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:11:36,745 - INFO - 127.0.0.1 - - [23/May/2026 13:11:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-23 13:11:36,749 - INFO - 127.0.0.1 - - [23/May/2026 13:11:36] "GET / HTTP/1.1" 200 -
+2026-05-23 13:11:36,755 - INFO - 127.0.0.1 - - [23/May/2026 13:11:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:11:38,033 - INFO - 127.0.0.1 - - [23/May/2026 13:11:38] "GET /add HTTP/1.1" 200 -
+2026-05-23 13:11:38,040 - INFO - 127.0.0.1 - - [23/May/2026 13:11:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:12:09,954 - INFO - 127.0.0.1 - - [23/May/2026 13:12:09] "POST /add HTTP/1.1" 200 -
+2026-05-23 13:12:09,961 - INFO - 127.0.0.1 - - [23/May/2026 13:12:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:19:32,077 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-23 13:19:32,104 - INFO -  * Restarting with stat
+2026-05-23 13:19:32,352 - WARNING -  * Debugger is active!
+2026-05-23 13:19:32,354 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:20:10,416 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-23 13:20:10,443 - INFO -  * Restarting with stat
+2026-05-23 13:20:10,707 - WARNING -  * Debugger is active!
+2026-05-23 13:20:10,709 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:21:26,827 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:21:26,850 - INFO -  * Restarting with stat
+2026-05-23 13:21:27,092 - WARNING -  * Debugger is active!
+2026-05-23 13:21:27,094 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:21:32,995 - INFO - 127.0.0.1 - - [23/May/2026 13:21:32] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:21:33,055 - INFO - 127.0.0.1 - - [23/May/2026 13:21:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:22:21,183 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:22:21,208 - INFO -  * Restarting with stat
+2026-05-23 13:22:21,485 - WARNING -  * Debugger is active!
+2026-05-23 13:22:21,487 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:22:23,736 - INFO - 127.0.0.1 - - [23/May/2026 13:22:23] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:22:23,794 - INFO - 127.0.0.1 - - [23/May/2026 13:22:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:25:16,750 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:25:16,775 - INFO -  * Restarting with stat
+2026-05-23 13:25:17,035 - WARNING -  * Debugger is active!
+2026-05-23 13:25:17,037 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:25:18,205 - INFO - 127.0.0.1 - - [23/May/2026 13:25:18] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:25:18,265 - INFO - 127.0.0.1 - - [23/May/2026 13:25:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:25:18,645 - INFO - 127.0.0.1 - - [23/May/2026 13:25:18] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:25:18,651 - INFO - 127.0.0.1 - - [23/May/2026 13:25:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:25:39,700 - INFO - 127.0.0.1 - - [23/May/2026 13:25:39] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:25:39,706 - INFO - 127.0.0.1 - - [23/May/2026 13:25:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:27:44,256 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-23 13:27:44,280 - INFO -  * Restarting with stat
+2026-05-23 13:27:44,520 - WARNING -  * Debugger is active!
+2026-05-23 13:27:44,521 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:28:09,564 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-23 13:28:09,590 - INFO -  * Restarting with stat
+2026-05-23 13:28:09,853 - WARNING -  * Debugger is active!
+2026-05-23 13:28:09,855 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:28:26,888 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:28:26,913 - INFO -  * Restarting with stat
+2026-05-23 13:28:27,177 - WARNING -  * Debugger is active!
+2026-05-23 13:28:27,179 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:28:29,204 - INFO - 127.0.0.1 - - [23/May/2026 13:28:29] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:28:29,264 - INFO - 127.0.0.1 - - [23/May/2026 13:28:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:29:09,252 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:29:09,278 - INFO -  * Restarting with stat
+2026-05-23 13:29:09,545 - WARNING -  * Debugger is active!
+2026-05-23 13:29:09,546 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:29:11,556 - INFO - 127.0.0.1 - - [23/May/2026 13:29:11] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:29:11,611 - INFO - 127.0.0.1 - - [23/May/2026 13:29:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:37:30,285 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-23 13:37:30,312 - INFO -  * Restarting with stat
+2026-05-23 13:37:30,562 - WARNING -  * Debugger is active!
+2026-05-23 13:37:30,564 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:39:58,788 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:39:58,812 - INFO -  * Restarting with stat
+2026-05-23 13:39:59,074 - WARNING -  * Debugger is active!
+2026-05-23 13:39:59,075 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:40:02,601 - INFO - 127.0.0.1 - - [23/May/2026 13:40:02] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:40:02,664 - INFO - 127.0.0.1 - - [23/May/2026 13:40:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:40:57,169 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:40:57,194 - INFO -  * Restarting with stat
+2026-05-23 13:40:57,450 - WARNING -  * Debugger is active!
+2026-05-23 13:40:57,452 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:40:58,088 - INFO - 127.0.0.1 - - [23/May/2026 13:40:58] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-23 13:40:58,186 - INFO - 127.0.0.1 - - [23/May/2026 13:40:58] "GET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-23 13:40:58,195 - INFO - 127.0.0.1 - - [23/May/2026 13:40:58] "GET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-23 13:40:58,215 - INFO - 127.0.0.1 - - [23/May/2026 13:40:58] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=3K8e26gkc3K3jVQUJZNu HTTP/1.1" 200 -
+2026-05-23 13:40:58,222 - INFO - 127.0.0.1 - - [23/May/2026 13:40:58] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-23 13:41:18,492 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:41:18,517 - INFO -  * Restarting with stat
+2026-05-23 13:41:18,780 - WARNING -  * Debugger is active!
+2026-05-23 13:41:18,782 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:41:19,716 - INFO - 127.0.0.1 - - [23/May/2026 13:41:19] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:41:19,779 - INFO - 127.0.0.1 - - [23/May/2026 13:41:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:41:20,749 - INFO - 127.0.0.1 - - [23/May/2026 13:41:20] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:41:20,756 - INFO - 127.0.0.1 - - [23/May/2026 13:41:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:41:28,807 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:41:28,833 - INFO -  * Restarting with stat
+2026-05-23 13:41:29,087 - WARNING -  * Debugger is active!
+2026-05-23 13:41:29,089 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:41:29,935 - INFO - 127.0.0.1 - - [23/May/2026 13:41:29] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:41:29,993 - INFO - 127.0.0.1 - - [23/May/2026 13:41:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:41:41,114 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:41:41,143 - INFO -  * Restarting with stat
+2026-05-23 13:41:41,408 - WARNING -  * Debugger is active!
+2026-05-23 13:41:41,409 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:41:42,136 - INFO - 127.0.0.1 - - [23/May/2026 13:41:42] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:41:42,193 - INFO - 127.0.0.1 - - [23/May/2026 13:41:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:43:36,588 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:43:36,611 - INFO -  * Restarting with stat
+2026-05-23 13:43:36,864 - WARNING -  * Debugger is active!
+2026-05-23 13:43:36,865 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:46:26,522 - INFO - 127.0.0.1 - - [23/May/2026 13:46:26] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:46:26,581 - INFO - 127.0.0.1 - - [23/May/2026 13:46:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:47:14,912 - INFO - 127.0.0.1 - - [23/May/2026 13:47:14] "GET / HTTP/1.1" 200 -
+2026-05-23 13:47:14,918 - INFO - 127.0.0.1 - - [23/May/2026 13:47:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:49:57,497 - INFO - 127.0.0.1 - - [23/May/2026 13:49:57] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:49:57,504 - INFO - 127.0.0.1 - - [23/May/2026 13:49:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:55:26,258 - INFO - 127.0.0.1 - - [23/May/2026 13:55:26] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:55:26,264 - INFO - 127.0.0.1 - - [23/May/2026 13:55:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:55:39,919 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-23 13:55:39,942 - INFO -  * Restarting with stat
+2026-05-23 13:55:40,192 - WARNING -  * Debugger is active!
+2026-05-23 13:55:40,194 - INFO -  * Debugger PIN: 695-758-574
+2026-05-23 13:55:42,909 - INFO - 127.0.0.1 - - [23/May/2026 13:55:42] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:55:42,966 - INFO - 127.0.0.1 - - [23/May/2026 13:55:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:56:18,260 - INFO - 127.0.0.1 - - [23/May/2026 13:56:18] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:56:18,266 - INFO - 127.0.0.1 - - [23/May/2026 13:56:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 13:59:44,135 - INFO - 127.0.0.1 - - [23/May/2026 13:59:44] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 13:59:44,147 - INFO - 127.0.0.1 - - [23/May/2026 13:59:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-23 14:22:56,968 - INFO - 127.0.0.1 - - [23/May/2026 14:22:56] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:22:56,975 - INFO - 127.0.0.1 - - [23/May/2026 14:22:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:22:57,558 - INFO - 127.0.0.1 - - [23/May/2026 14:22:57] "GET / HTTP/1.1" 200 -
+2026-05-23 14:22:57,564 - INFO - 127.0.0.1 - - [23/May/2026 14:22:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:22:59,849 - INFO - 127.0.0.1 - - [23/May/2026 14:22:59] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:22:59,855 - INFO - 127.0.0.1 - - [23/May/2026 14:22:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:00,635 - INFO - 127.0.0.1 - - [23/May/2026 14:23:00] "GET /delete HTTP/1.1" 200 -
+2026-05-23 14:23:00,641 - INFO - 127.0.0.1 - - [23/May/2026 14:23:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:01,364 - INFO - 127.0.0.1 - - [23/May/2026 14:23:01] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:01,370 - INFO - 127.0.0.1 - - [23/May/2026 14:23:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:02,678 - INFO - 127.0.0.1 - - [23/May/2026 14:23:02] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:23:02,684 - INFO - 127.0.0.1 - - [23/May/2026 14:23:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:03,302 - INFO - 127.0.0.1 - - [23/May/2026 14:23:03] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:03,308 - INFO - 127.0.0.1 - - [23/May/2026 14:23:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:04,158 - INFO - 127.0.0.1 - - [23/May/2026 14:23:04] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:23:04,164 - INFO - 127.0.0.1 - - [23/May/2026 14:23:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:04,532 - INFO - 127.0.0.1 - - [23/May/2026 14:23:04] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:04,538 - INFO - 127.0.0.1 - - [23/May/2026 14:23:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:05,504 - INFO - 127.0.0.1 - - [23/May/2026 14:23:05] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:23:05,510 - INFO - 127.0.0.1 - - [23/May/2026 14:23:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:06,289 - INFO - 127.0.0.1 - - [23/May/2026 14:23:06] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:06,295 - INFO - 127.0.0.1 - - [23/May/2026 14:23:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:47,651 - INFO - 127.0.0.1 - - [23/May/2026 14:23:47] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:47,657 - INFO - 127.0.0.1 - - [23/May/2026 14:23:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:48,551 - INFO - 127.0.0.1 - - [23/May/2026 14:23:48] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:23:48,557 - INFO - 127.0.0.1 - - [23/May/2026 14:23:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:23:48,964 - INFO - 127.0.0.1 - - [23/May/2026 14:23:48] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:23:48,970 - INFO - 127.0.0.1 - - [23/May/2026 14:23:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:24:07,134 - INFO - 127.0.0.1 - - [23/May/2026 14:24:07] "GET /add HTTP/1.1" 200 -
+2026-05-23 14:24:07,141 - INFO - 127.0.0.1 - - [23/May/2026 14:24:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:26:28,540 - INFO - 127.0.0.1 - - [23/May/2026 14:26:28] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:26:28,546 - INFO - 127.0.0.1 - - [23/May/2026 14:26:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:31:07,886 - INFO - 127.0.0.1 - - [23/May/2026 14:31:07] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:31:07,893 - INFO - 127.0.0.1 - - [23/May/2026 14:31:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-23 14:33:20,939 - INFO - 127.0.0.1 - - [23/May/2026 14:33:20] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:33:20,947 - INFO - 127.0.0.1 - - [23/May/2026 14:33:20] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-23 14:33:46,985 - INFO - 127.0.0.1 - - [23/May/2026 14:33:46] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:33:46,996 - INFO - 127.0.0.1 - - [23/May/2026 14:33:46] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-23 14:34:40,377 - INFO - 127.0.0.1 - - [23/May/2026 14:34:40] "GET /my_games HTTP/1.1" 200 -
+2026-05-23 14:34:40,385 - INFO - 127.0.0.1 - - [23/May/2026 14:34:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:06,908 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-30 13:04:06,909 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 13:04:06,909 - INFO -  * Restarting with stat
+2026-05-30 13:04:07,130 - WARNING -  * Debugger is active!
+2026-05-30 13:04:07,142 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:04:12,131 - INFO - 127.0.0.1 - - [30/May/2026 13:04:12] "GET / HTTP/1.1" 200 -
+2026-05-30 13:04:12,177 - INFO - 127.0.0.1 - - [30/May/2026 13:04:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:15,234 - INFO - 127.0.0.1 - - [30/May/2026 13:04:15] "[32mGET /my_games HTTP/1.1[0m" 302 -
+2026-05-30 13:04:15,246 - INFO - 127.0.0.1 - - [30/May/2026 13:04:15] "GET /login?next=/my_games HTTP/1.1" 200 -
+2026-05-30 13:04:15,252 - INFO - 127.0.0.1 - - [30/May/2026 13:04:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:23,377 - INFO - 127.0.0.1 - - [30/May/2026 13:04:23] "GET /register HTTP/1.1" 200 -
+2026-05-30 13:04:23,382 - INFO - 127.0.0.1 - - [30/May/2026 13:04:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:31,953 - INFO - 127.0.0.1 - - [30/May/2026 13:04:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-30 13:04:31,957 - INFO - 127.0.0.1 - - [30/May/2026 13:04:31] "GET /login HTTP/1.1" 200 -
+2026-05-30 13:04:31,963 - INFO - 127.0.0.1 - - [30/May/2026 13:04:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:35,147 - INFO - 127.0.0.1 - - [30/May/2026 13:04:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-30 13:04:35,150 - INFO - 127.0.0.1 - - [30/May/2026 13:04:35] "GET / HTTP/1.1" 200 -
+2026-05-30 13:04:35,155 - INFO - 127.0.0.1 - - [30/May/2026 13:04:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:36,453 - INFO - 127.0.0.1 - - [30/May/2026 13:04:36] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:04:36,468 - INFO - 127.0.0.1 - - [30/May/2026 13:04:36] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:04:36,474 - INFO - 127.0.0.1 - - [30/May/2026 13:04:36] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:04:36,493 - INFO - 127.0.0.1 - - [30/May/2026 13:04:36] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=9oUeRNFA6hDLivKQjg1O HTTP/1.1" 200 -
+2026-05-30 13:06:19,866 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-30 13:06:19,866 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 13:06:19,867 - INFO -  * Restarting with stat
+2026-05-30 13:06:20,069 - WARNING -  * Debugger is active!
+2026-05-30 13:06:20,070 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:06:23,208 - INFO - 127.0.0.1 - - [30/May/2026 13:06:23] "GET / HTTP/1.1" 200 -
+2026-05-30 13:06:23,266 - INFO - 127.0.0.1 - - [30/May/2026 13:06:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:06:24,774 - INFO - 127.0.0.1 - - [30/May/2026 13:06:24] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:06:24,779 - INFO - 127.0.0.1 - - [30/May/2026 13:06:24] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:06:24,779 - INFO - 127.0.0.1 - - [30/May/2026 13:06:24] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:06:24,784 - INFO - 127.0.0.1 - - [30/May/2026 13:06:24] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=q1RS2D1gXqWuRS6d7BGQ HTTP/1.1" 200 -
+2026-05-30 13:06:28,298 - INFO - 127.0.0.1 - - [30/May/2026 13:06:28] "GET /add HTTP/1.1" 200 -
+2026-05-30 13:06:28,306 - INFO - 127.0.0.1 - - [30/May/2026 13:06:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:06:47,496 - INFO - 127.0.0.1 - - [30/May/2026 13:06:47] "POST /add HTTP/1.1" 200 -
+2026-05-30 13:06:47,507 - INFO - 127.0.0.1 - - [30/May/2026 13:06:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:06:50,398 - INFO - 127.0.0.1 - - [30/May/2026 13:06:50] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:06:50,404 - INFO - 127.0.0.1 - - [30/May/2026 13:06:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:07:07,947 - INFO - 127.0.0.1 - - [30/May/2026 13:07:07] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:07:07,975 - INFO - 127.0.0.1 - - [30/May/2026 13:07:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:07:07,994 - INFO - 127.0.0.1 - - [30/May/2026 13:07:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:07:35,289 - INFO - 127.0.0.1 - - [30/May/2026 13:07:35] "GET / HTTP/1.1" 200 -
+2026-05-30 13:07:35,294 - INFO - 127.0.0.1 - - [30/May/2026 13:07:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:07:37,895 - INFO - 127.0.0.1 - - [30/May/2026 13:07:37] "GET /add HTTP/1.1" 200 -
+2026-05-30 13:07:37,901 - INFO - 127.0.0.1 - - [30/May/2026 13:07:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:07:41,695 - INFO - 127.0.0.1 - - [30/May/2026 13:07:41] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:07:41,702 - INFO - 127.0.0.1 - - [30/May/2026 13:07:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:08:05,606 - INFO - 127.0.0.1 - - [30/May/2026 13:08:05] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:08:05,612 - INFO - 127.0.0.1 - - [30/May/2026 13:08:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:08:06,651 - INFO - 127.0.0.1 - - [30/May/2026 13:08:06] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:08:06,656 - INFO - 127.0.0.1 - - [30/May/2026 13:08:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:08:27,721 - INFO - 127.0.0.1 - - [30/May/2026 13:08:27] "GET /add HTTP/1.1" 200 -
+2026-05-30 13:08:27,727 - INFO - 127.0.0.1 - - [30/May/2026 13:08:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:08:46,994 - INFO - 127.0.0.1 - - [30/May/2026 13:08:46] "POST /add HTTP/1.1" 200 -
+2026-05-30 13:08:47,000 - INFO - 127.0.0.1 - - [30/May/2026 13:08:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:08:49,766 - INFO - 127.0.0.1 - - [30/May/2026 13:08:49] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:08:49,772 - INFO - 127.0.0.1 - - [30/May/2026 13:08:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:10:14,387 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:10:14,421 - INFO -  * Restarting with stat
+2026-05-30 13:10:14,646 - WARNING -  * Debugger is active!
+2026-05-30 13:10:14,647 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:10:18,821 - INFO - 127.0.0.1 - - [30/May/2026 13:10:18] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:10:18,859 - INFO - 127.0.0.1 - - [30/May/2026 13:10:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:12:23,817 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:12:23,839 - INFO -  * Restarting with stat
+2026-05-30 13:12:24,062 - WARNING -  * Debugger is active!
+2026-05-30 13:12:24,063 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:12:43,094 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:12:43,117 - INFO -  * Restarting with stat
+2026-05-30 13:12:43,334 - WARNING -  * Debugger is active!
+2026-05-30 13:12:43,336 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:12:47,234 - INFO - 127.0.0.1 - - [30/May/2026 13:12:47] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:12:47,275 - INFO - 127.0.0.1 - - [30/May/2026 13:12:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:16:49,665 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:16:49,688 - INFO -  * Restarting with stat
+2026-05-30 13:16:49,923 - WARNING -  * Debugger is active!
+2026-05-30 13:16:49,924 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:16:54,110 - INFO - 127.0.0.1 - - [30/May/2026 13:16:54] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:16:54,146 - INFO - 127.0.0.1 - - [30/May/2026 13:16:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:19:04,110 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:19:04,133 - INFO -  * Restarting with stat
+2026-05-30 13:19:04,382 - WARNING -  * Debugger is active!
+2026-05-30 13:19:04,384 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:19:09,191 - INFO - 127.0.0.1 - - [30/May/2026 13:19:09] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:19:09,226 - INFO - 127.0.0.1 - - [30/May/2026 13:19:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:20:30,670 - INFO - 127.0.0.1 - - [30/May/2026 13:20:30] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:20:30,687 - INFO - 127.0.0.1 - - [30/May/2026 13:20:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-30 13:21:13,096 - INFO - 127.0.0.1 - - [30/May/2026 13:21:13] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:21:13,113 - INFO - 127.0.0.1 - - [30/May/2026 13:21:13] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-30 13:22:11,096 - INFO - 127.0.0.1 - - [30/May/2026 13:22:11] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:22:11,120 - INFO - 127.0.0.1 - - [30/May/2026 13:22:11] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-30 13:22:44,342 - INFO - 127.0.0.1 - - [30/May/2026 13:22:44] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:22:44,355 - INFO - 127.0.0.1 - - [30/May/2026 13:22:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-30 13:29:25,209 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-30 13:29:25,234 - INFO -  * Restarting with stat
+2026-05-30 13:29:25,466 - WARNING -  * Debugger is active!
+2026-05-30 13:29:25,467 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:31:12,612 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-30 13:31:12,636 - INFO -  * Restarting with stat
+2026-05-30 13:31:12,860 - WARNING -  * Debugger is active!
+2026-05-30 13:31:12,862 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:31:14,871 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:31:14,894 - INFO -  * Restarting with stat
+2026-05-30 13:31:15,145 - WARNING -  * Debugger is active!
+2026-05-30 13:31:15,147 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:31:20,008 - INFO - 127.0.0.1 - - [30/May/2026 13:31:20] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:31:20,048 - INFO - 127.0.0.1 - - [30/May/2026 13:31:20] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-30 13:31:21,790 - INFO - 127.0.0.1 - - [30/May/2026 13:31:21] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:31:21,796 - INFO - 127.0.0.1 - - [30/May/2026 13:31:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:39:35,807 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\utils.py', reloading
+2026-05-30 13:39:35,828 - INFO -  * Restarting with stat
+2026-05-30 13:39:36,032 - WARNING -  * Debugger is active!
+2026-05-30 13:39:36,033 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:39:51,059 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\utils.py', reloading
+2026-05-30 13:39:51,083 - INFO -  * Restarting with stat
+2026-05-30 13:39:51,301 - WARNING -  * Debugger is active!
+2026-05-30 13:39:51,303 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:40:42,376 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:40:42,397 - INFO -  * Restarting with stat
+2026-05-30 13:40:42,611 - WARNING -  * Debugger is active!
+2026-05-30 13:40:42,613 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:40:49,758 - INFO - 127.0.0.1 - - [30/May/2026 13:40:49] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:40:49,802 - INFO - 127.0.0.1 - - [30/May/2026 13:40:49] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:40:49,803 - INFO - 127.0.0.1 - - [30/May/2026 13:40:49] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:40:49,811 - INFO - 127.0.0.1 - - [30/May/2026 13:40:49] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=gmuD15P5wt4Z9r18g0Wr HTTP/1.1" 200 -
+2026-05-30 13:42:49,788 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:42:49,810 - INFO -  * Restarting with stat
+2026-05-30 13:42:50,018 - WARNING -  * Debugger is active!
+2026-05-30 13:42:50,020 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:42:52,365 - INFO - 127.0.0.1 - - [30/May/2026 13:42:52] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:42:52,412 - INFO - 127.0.0.1 - - [30/May/2026 13:42:52] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:42:52,412 - INFO - 127.0.0.1 - - [30/May/2026 13:42:52] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:42:52,418 - INFO - 127.0.0.1 - - [30/May/2026 13:42:52] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=uMdloJflUxDeGF4wHoCl HTTP/1.1" 200 -
+2026-05-30 13:42:54,998 - INFO - 127.0.0.1 - - [30/May/2026 13:42:54] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:42:55,004 - INFO - 127.0.0.1 - - [30/May/2026 13:42:55] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:42:55,004 - INFO - 127.0.0.1 - - [30/May/2026 13:42:55] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:42:55,010 - INFO - 127.0.0.1 - - [30/May/2026 13:42:55] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=uMdloJflUxDeGF4wHoCl HTTP/1.1[0m" 304 -
+2026-05-30 13:45:33,239 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:45:33,263 - INFO -  * Restarting with stat
+2026-05-30 13:45:33,468 - WARNING -  * Debugger is active!
+2026-05-30 13:45:33,469 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:46:59,591 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\database_control.py', reloading
+2026-05-30 13:46:59,612 - INFO -  * Restarting with stat
+2026-05-30 13:46:59,813 - WARNING -  * Debugger is active!
+2026-05-30 13:46:59,814 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:47:03,423 - INFO - 127.0.0.1 - - [30/May/2026 13:47:03] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:47:03,467 - INFO - 127.0.0.1 - - [30/May/2026 13:47:03] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:47:03,469 - INFO - 127.0.0.1 - - [30/May/2026 13:47:03] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:47:03,485 - INFO - 127.0.0.1 - - [30/May/2026 13:47:03] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=EJfzjKrh5YsGYCFWSMG9 HTTP/1.1" 200 -
+2026-05-30 13:48:00,900 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:48:00,923 - INFO -  * Restarting with stat
+2026-05-30 13:48:01,140 - WARNING -  * Debugger is active!
+2026-05-30 13:48:01,141 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:48:03,022 - INFO - 127.0.0.1 - - [30/May/2026 13:48:03] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:48:03,058 - INFO - 127.0.0.1 - - [30/May/2026 13:48:03] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:48:03,062 - INFO - 127.0.0.1 - - [30/May/2026 13:48:03] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:48:03,069 - INFO - 127.0.0.1 - - [30/May/2026 13:48:03] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=NvtW9736ORSsMDCTWLaH HTTP/1.1" 200 -
+2026-05-30 13:48:30,186 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:48:30,210 - INFO -  * Restarting with stat
+2026-05-30 13:48:30,434 - WARNING -  * Debugger is active!
+2026-05-30 13:48:30,435 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:48:30,635 - INFO - 127.0.0.1 - - [30/May/2026 13:48:30] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:48:30,669 - INFO - 127.0.0.1 - - [30/May/2026 13:48:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:48:54,474 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:48:54,497 - INFO -  * Restarting with stat
+2026-05-30 13:48:54,721 - WARNING -  * Debugger is active!
+2026-05-30 13:48:54,723 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:48:55,798 - INFO - 127.0.0.1 - - [30/May/2026 13:48:55] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-30 13:48:55,840 - INFO - 127.0.0.1 - - [30/May/2026 13:48:55] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-30 13:48:55,841 - INFO - 127.0.0.1 - - [30/May/2026 13:48:55] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-30 13:48:55,847 - INFO - 127.0.0.1 - - [30/May/2026 13:48:55] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=GeKZ5HeSOB0DvwQLJvOD HTTP/1.1" 200 -
+2026-05-30 13:49:06,746 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:49:06,770 - INFO -  * Restarting with stat
+2026-05-30 13:49:06,998 - WARNING -  * Debugger is active!
+2026-05-30 13:49:07,000 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:49:07,344 - INFO - 127.0.0.1 - - [30/May/2026 13:49:07] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:49:07,372 - INFO - 127.0.0.1 - - [30/May/2026 13:49:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:49:09,725 - INFO - 127.0.0.1 - - [30/May/2026 13:49:09] "GET /my_games HTTP/1.1" 200 -
+2026-05-30 13:49:09,731 - INFO - 127.0.0.1 - - [30/May/2026 13:49:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-30 13:53:37,377 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\utils.py', reloading
+2026-05-30 13:53:37,402 - INFO -  * Restarting with stat
+2026-05-30 13:53:37,624 - WARNING -  * Debugger is active!
+2026-05-30 13:53:37,626 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:54:13,679 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:54:13,701 - INFO -  * Restarting with stat
+2026-05-30 13:54:13,910 - WARNING -  * Debugger is active!
+2026-05-30 13:54:13,912 - INFO -  * Debugger PIN: 133-982-668
+2026-05-30 13:54:29,939 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-30 13:54:29,960 - INFO -  * Restarting with stat
+2026-05-30 13:54:30,165 - WARNING -  * Debugger is active!
+2026-05-30 13:54:30,166 - INFO -  * Debugger PIN: 133-982-668
+2026-05-31 13:21:31,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 13:21:31,956 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-31 13:21:31,957 - INFO -  * Restarting with stat
+2026-05-31 13:21:32,164 - WARNING -  * Debugger is active!
+2026-05-31 13:21:32,174 - INFO -  * Debugger PIN: 350-984-581
+2026-05-31 13:21:34,484 - INFO - 127.0.0.1 - - [31/May/2026 13:21:34] "GET / HTTP/1.1" 200 -
+2026-05-31 13:21:34,527 - INFO - 127.0.0.1 - - [31/May/2026 13:21:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:37,053 - INFO - 127.0.0.1 - - [31/May/2026 13:21:37] "[32mGET /my_games HTTP/1.1[0m" 302 -
+2026-05-31 13:21:37,065 - INFO - 127.0.0.1 - - [31/May/2026 13:21:37] "GET /login?next=/my_games HTTP/1.1" 200 -
+2026-05-31 13:21:37,070 - INFO - 127.0.0.1 - - [31/May/2026 13:21:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:52,354 - INFO - 127.0.0.1 - - [31/May/2026 13:21:52] "POST /login HTTP/1.1" 200 -
+2026-05-31 13:21:52,360 - INFO - 127.0.0.1 - - [31/May/2026 13:21:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:54,516 - INFO - 127.0.0.1 - - [31/May/2026 13:21:54] "POST /login HTTP/1.1" 200 -
+2026-05-31 13:21:54,522 - INFO - 127.0.0.1 - - [31/May/2026 13:21:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:56,166 - INFO - 127.0.0.1 - - [31/May/2026 13:21:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-31 13:21:56,169 - INFO - 127.0.0.1 - - [31/May/2026 13:21:56] "GET / HTTP/1.1" 200 -
+2026-05-31 13:21:56,174 - INFO - 127.0.0.1 - - [31/May/2026 13:21:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:59,075 - INFO - 127.0.0.1 - - [31/May/2026 13:21:59] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-31 13:21:59,089 - INFO - 127.0.0.1 - - [31/May/2026 13:21:59] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-31 13:21:59,094 - INFO - 127.0.0.1 - - [31/May/2026 13:21:59] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-31 13:21:59,117 - INFO - 127.0.0.1 - - [31/May/2026 13:21:59] "GET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=VjJr97GyXfBXYnwvRFH4 HTTP/1.1" 200 -
+2026-05-31 13:22:47,530 - INFO - 127.0.0.1 - - [31/May/2026 13:22:47] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-31 13:22:47,557 - INFO - 127.0.0.1 - - [31/May/2026 13:22:47] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-31 13:22:47,558 - INFO - 127.0.0.1 - - [31/May/2026 13:22:47] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-31 13:22:47,570 - INFO - 127.0.0.1 - - [31/May/2026 13:22:47] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=VjJr97GyXfBXYnwvRFH4 HTTP/1.1[0m" 304 -
+2026-05-31 13:22:47,594 - INFO - 127.0.0.1 - - [31/May/2026 13:22:47] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-31 13:25:38,344 - INFO - 127.0.0.1 - - [31/May/2026 13:25:38] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-31 13:25:38,350 - INFO - 127.0.0.1 - - [31/May/2026 13:25:38] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-31 13:25:38,351 - INFO - 127.0.0.1 - - [31/May/2026 13:25:38] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-31 13:25:38,358 - INFO - 127.0.0.1 - - [31/May/2026 13:25:38] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=VjJr97GyXfBXYnwvRFH4 HTTP/1.1[0m" 304 -
+2026-05-31 13:25:40,797 - INFO - 127.0.0.1 - - [31/May/2026 13:25:40] "[35m[1mGET /my_games HTTP/1.1[0m" 500 -
+2026-05-31 13:25:40,804 - INFO - 127.0.0.1 - - [31/May/2026 13:25:40] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-31 13:25:40,804 - INFO - 127.0.0.1 - - [31/May/2026 13:25:40] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-31 13:25:40,807 - INFO - 127.0.0.1 - - [31/May/2026 13:25:40] "[36mGET /my_games?__debugger__=yes&cmd=resource&f=console.png&s=VjJr97GyXfBXYnwvRFH4 HTTP/1.1[0m" 304 -
+2026-05-31 13:25:54,453 - INFO - 127.0.0.1 - - [31/May/2026 13:25:54] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:25:54,459 - INFO - 127.0.0.1 - - [31/May/2026 13:25:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:26:56,496 - INFO - 127.0.0.1 - - [31/May/2026 13:26:56] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:26:56,503 - INFO - 127.0.0.1 - - [31/May/2026 13:26:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:26:59,470 - INFO - 127.0.0.1 - - [31/May/2026 13:26:59] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:26:59,477 - INFO - 127.0.0.1 - - [31/May/2026 13:26:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:28:37,760 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-31 13:28:37,796 - INFO -  * Restarting with stat
+2026-05-31 13:28:38,022 - WARNING -  * Debugger is active!
+2026-05-31 13:28:38,023 - INFO -  * Debugger PIN: 350-984-581
+2026-05-31 13:28:42,730 - INFO - 127.0.0.1 - - [31/May/2026 13:28:42] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:28:42,767 - INFO - 127.0.0.1 - - [31/May/2026 13:28:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:34:08,475 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\utils.py', reloading
+2026-05-31 13:34:08,497 - INFO -  * Restarting with stat
+2026-05-31 13:34:08,702 - WARNING -  * Debugger is active!
+2026-05-31 13:34:08,703 - INFO -  * Debugger PIN: 350-984-581
+2026-05-31 13:35:27,817 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-31 13:35:27,840 - INFO -  * Restarting with stat
+2026-05-31 13:35:28,064 - WARNING -  * Debugger is active!
+2026-05-31 13:35:28,066 - INFO -  * Debugger PIN: 350-984-581
+2026-05-31 13:35:29,296 - INFO - 127.0.0.1 - - [31/May/2026 13:35:29] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:35:29,334 - INFO - 127.0.0.1 - - [31/May/2026 13:35:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:36:54,930 - INFO - 127.0.0.1 - - [31/May/2026 13:36:54] "GET /add HTTP/1.1" 200 -
+2026-05-31 13:36:54,935 - INFO - 127.0.0.1 - - [31/May/2026 13:36:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:38:38,335 - INFO -  * Detected change in 'c:\\Users\\divny\\Desktop\\here4\\main.py', reloading
+2026-05-31 13:38:38,357 - INFO -  * Restarting with stat
+2026-05-31 13:38:38,554 - WARNING -  * Debugger is active!
+2026-05-31 13:38:38,555 - INFO -  * Debugger PIN: 350-984-581
+2026-05-31 13:39:10,367 - INFO - 127.0.0.1 - - [31/May/2026 13:39:10] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-05-31 13:39:10,828 - INFO - 127.0.0.1 - - [31/May/2026 13:39:10] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:39:10,862 - INFO - 127.0.0.1 - - [31/May/2026 13:39:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:39:22,155 - INFO - 127.0.0.1 - - [31/May/2026 13:39:22] "[32mGET /exit HTTP/1.1[0m" 302 -
+2026-05-31 13:39:22,160 - INFO - 127.0.0.1 - - [31/May/2026 13:39:22] "GET /login HTTP/1.1" 200 -
+2026-05-31 13:39:22,165 - INFO - 127.0.0.1 - - [31/May/2026 13:39:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:39:24,598 - INFO - 127.0.0.1 - - [31/May/2026 13:39:24] "GET /register HTTP/1.1" 200 -
+2026-05-31 13:39:24,603 - INFO - 127.0.0.1 - - [31/May/2026 13:39:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:39:38,249 - INFO - 127.0.0.1 - - [31/May/2026 13:39:38] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-31 13:39:38,253 - INFO - 127.0.0.1 - - [31/May/2026 13:39:38] "GET /login HTTP/1.1" 200 -
+2026-05-31 13:39:38,258 - INFO - 127.0.0.1 - - [31/May/2026 13:39:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:39:41,784 - INFO - 127.0.0.1 - - [31/May/2026 13:39:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-31 13:39:41,787 - INFO - 127.0.0.1 - - [31/May/2026 13:39:41] "GET / HTTP/1.1" 200 -
+2026-05-31 13:39:41,792 - INFO - 127.0.0.1 - - [31/May/2026 13:39:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:39:43,047 - INFO - 127.0.0.1 - - [31/May/2026 13:39:43] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:39:43,053 - INFO - 127.0.0.1 - - [31/May/2026 13:39:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:40:19,536 - INFO - 127.0.0.1 - - [31/May/2026 13:40:19] "[32mGET /exit HTTP/1.1[0m" 302 -
+2026-05-31 13:40:19,540 - INFO - 127.0.0.1 - - [31/May/2026 13:40:19] "GET /login HTTP/1.1" 200 -
+2026-05-31 13:40:19,544 - INFO - 127.0.0.1 - - [31/May/2026 13:40:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:40:23,441 - INFO - 127.0.0.1 - - [31/May/2026 13:40:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-31 13:40:23,443 - INFO - 127.0.0.1 - - [31/May/2026 13:40:23] "GET / HTTP/1.1" 200 -
+2026-05-31 13:40:23,448 - INFO - 127.0.0.1 - - [31/May/2026 13:40:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:40:24,959 - INFO - 127.0.0.1 - - [31/May/2026 13:40:24] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:40:24,965 - INFO - 127.0.0.1 - - [31/May/2026 13:40:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:42:17,214 - INFO - 127.0.0.1 - - [31/May/2026 13:42:17] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:42:17,226 - INFO - 127.0.0.1 - - [31/May/2026 13:42:17] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:43:52,623 - INFO - 127.0.0.1 - - [31/May/2026 13:43:52] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:43:52,640 - INFO - 127.0.0.1 - - [31/May/2026 13:43:52] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:44:01,726 - INFO - 127.0.0.1 - - [31/May/2026 13:44:01] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:44:01,738 - INFO - 127.0.0.1 - - [31/May/2026 13:44:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:44:10,180 - INFO - 127.0.0.1 - - [31/May/2026 13:44:10] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:44:10,192 - INFO - 127.0.0.1 - - [31/May/2026 13:44:10] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:45:14,988 - INFO - 127.0.0.1 - - [31/May/2026 13:45:14] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:45:15,000 - INFO - 127.0.0.1 - - [31/May/2026 13:45:15] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:45:44,043 - INFO - 127.0.0.1 - - [31/May/2026 13:45:44] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:45:44,049 - INFO - 127.0.0.1 - - [31/May/2026 13:45:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-05-31 13:45:49,259 - INFO - 127.0.0.1 - - [31/May/2026 13:45:49] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:45:49,272 - INFO - 127.0.0.1 - - [31/May/2026 13:45:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:46:36,682 - INFO - 127.0.0.1 - - [31/May/2026 13:46:36] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:46:36,695 - INFO - 127.0.0.1 - - [31/May/2026 13:46:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:46:59,328 - INFO - 127.0.0.1 - - [31/May/2026 13:46:59] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:46:59,342 - INFO - 127.0.0.1 - - [31/May/2026 13:46:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:47:40,982 - INFO - 127.0.0.1 - - [31/May/2026 13:47:40] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:47:40,996 - INFO - 127.0.0.1 - - [31/May/2026 13:47:40] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:47:57,150 - INFO - 127.0.0.1 - - [31/May/2026 13:47:57] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:47:57,166 - INFO - 127.0.0.1 - - [31/May/2026 13:47:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:48:29,447 - INFO - 127.0.0.1 - - [31/May/2026 13:48:29] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:48:29,462 - INFO - 127.0.0.1 - - [31/May/2026 13:48:29] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:49:28,550 - INFO - 127.0.0.1 - - [31/May/2026 13:49:28] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:49:28,564 - INFO - 127.0.0.1 - - [31/May/2026 13:49:28] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-05-31 13:50:57,252 - INFO - 127.0.0.1 - - [31/May/2026 13:50:57] "GET /my_games HTTP/1.1" 200 -
+2026-05-31 13:50:57,260 - INFO - 127.0.0.1 - - [31/May/2026 13:50:57] "GET /static/css/main.css HTTP/1.1" 200 -

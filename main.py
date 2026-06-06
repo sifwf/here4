@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request,abort,flash,g,make_response,url_for,redirect,session
 import sqlite3
 import logging
+import base64
 from config import menu
 from database_control import Flaskdb
 from forms import Register_form,Login_form,Games_form
@@ -8,6 +9,8 @@ from flask_db import get_db
 from werkzeug.security import check_password_hash,generate_password_hash
 from flask_login import login_user,logout_user,login_required,current_user,LoginManager
 from login_user import LoginUser
+from utils import extract_images,delete_photo,encode_images
+
 logging.basicConfig(filename="index.log",
                     level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
@@ -52,7 +55,10 @@ def add():
         release=request.form["release"]
         photo=request.files["photo"]
         blob=photo.read()
-        
+        dbase.add_games(name,price,desc,release,blob)
+        id=dbase.get_gameid_by_name(name)
+        dbase.add_connect(current_user.id,id)
+        return redirect(url_for("my_games"))
     return render_template("add.html",menu=menu,form=form)
 
 @app.route("/exit")
@@ -64,7 +70,19 @@ def exit():
 @app.route("/my_games")
 @login_required
 def my_games():
-    return render_template("my_games.html",menu=menu)
+    userid=current_user.id
+    gamesid=dbase.get_gamesid_by_userid(userid)
+    games=dbase.get_games(gamesid)
+    images=extract_images(games)
+    encoded_images=encode_images(images)
+    print(encoded_images)
+    delete_photo(games)
+    print(games)
+
+
+
+    
+    return render_template("my_games.html",menu=menu,games=games,images=encoded_images)
 
 @app.route("/login",methods=["GET","POST"])
 def login():

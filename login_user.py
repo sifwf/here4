@@ -13,3 +13,6 @@ class LoginUser:
         return True
     def get_id(self):
         return str(self.__user["id"])
+    @property
+    def id(self):
+        return self.__user["id"]

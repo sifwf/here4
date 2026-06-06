@@ -1,3 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
+
+<div class="games">
+    <h1>Games</h1>
+    {% for i in range(games|length) %}
+        <div class="game">
+            <img src="data:image/png;base64,{{ images[i] }}" alt="">
+            <p>{{games[i][0]}}</p>
+            <p>{{games[i][1]}}</p>
+            <p>{{games[i][2]}}</p>
+            <p>{{games[i][3]}}</p>
+            </div>
+    {% endfor %}
+
+
+</div>
+
 {% endblock %}
