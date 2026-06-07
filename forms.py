@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, SubmitField,TextAreaField,DateField,FileField
+from wtforms import StringField, PasswordField, SubmitField,TextAreaField,DateField,FileField,SelectField
 from wtforms.validators import DataRequired, Length, EqualTo
 
 
@@ -29,4 +29,12 @@ class Games_form(FlaskForm):
     desc=TextAreaField("desc",validators=[DataRequired()])
     release=DateField("release",validators=[DataRequired()])
     photo=FileField("photo",validators=[DataRequired()])
+    submit=SubmitField("submit")
+
+class Edit_form(FlaskForm):
+
+    price=StringField("price",validators=[Length(min=1,max=5,message="too much")],render_kw={"placeholder":'price'})
+    desc=TextAreaField("desc",validators=[])
+    release=DateField("release",validators=[])
+    photo=FileField("photo",validators=[])
     submit=SubmitField("submit")

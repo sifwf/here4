@@ -73,4 +73,13 @@ class Flaskdb:
             games.append(list(game))
         return games
     
+    def if_name_in_database(self,name):
+        self.__cur.execute("SELECT name FROM games WHERE name=?",(name,))
+        game_count=len(self.__cur.fetchall())
+        if game_count>0:
+            return True
+        return False
+
+
+    
     

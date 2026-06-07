@@ -2,16 +2,16 @@ CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     password TEXT NOT NULL
-)
+);
 
 CREATE TABLE IF NOT EXISTS games (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
+    name TEXT NOT NULL UNIQUE,
     price TEXT NOT NULL,
     desc TEXT,
     release TEXT,
     photo BLOB
-)
+);
 
 CREATE TABLE IF NOT EXISTS connect (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -19,6 +19,6 @@ CREATE TABLE IF NOT EXISTS connect (
     games_id INTEGER NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (games_id) REFERENCES games(id)
-)
+);
 
 

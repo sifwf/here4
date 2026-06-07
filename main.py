@@ -4,8 +4,8 @@ import logging
 import base64
 from config import menu
 from database_control import Flaskdb
-from forms import Register_form,Login_form,Games_form
-from flask_db import get_db
+from forms import Register_form,Login_form,Games_form,Edit_form
+from flask_db import get_db,create_db
 from werkzeug.security import check_password_hash,generate_password_hash
 from flask_login import login_user,logout_user,login_required,current_user,LoginManager
 from login_user import LoginUser
@@ -22,6 +22,8 @@ dbase = None
 
 lm=LoginManager(app)
 lm.login_view="login"
+
+create_db(app)
 
 @lm.user_loader
 def load_user(user_id):
@@ -55,11 +57,35 @@ def add():
         release=request.form["release"]
         photo=request.files["photo"]
         blob=photo.read()
-        dbase.add_games(name,price,desc,release,blob)
-        id=dbase.get_gameid_by_name(name)
-        dbase.add_connect(current_user.id,id)
-        return redirect(url_for("my_games"))
+
+        if dbase.if_name_in_database(name):
+            flash("game already in your list",category="fail")
+        else: 
+            dbase.add_games(name,price,desc,release,blob)
+            id=dbase.get_gameid_by_name(name)
+            dbase.add_connect(current_user.id,id)
+            return redirect(url_for("my_games"))
     return render_template("add.html",menu=menu,form=form)
+
+@app.route("/edit",methods=["POST","GET"])
+@login_required
+def edit():
+    userid=current_user.id
+    gamesid=dbase.get_gamesid_by_userid(userid)
+    games=dbase.get_games(gamesid)
+    form=Edit_form()
+    form.names.choices=[game[0] for game in games]
+    if form.validate_on_submit():
+        name=request.form["names"]
+        price=request.form["price"]
+        desc=request.form["desc"]
+        release=request.form["release"]
+        photo=request.files["photo"]
+        blob=photo.read()
+        print(name)
+        print(price)
+    
+    return render_template("edit.html",games=games,menu=menu,form=form)
 
 @app.route("/exit")
 @login_required
