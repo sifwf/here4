@@ -74,8 +74,9 @@ def edit():
     gamesid=dbase.get_gamesid_by_userid(userid)
     games=dbase.get_games(gamesid)
     form=Edit_form()
-    form.names.choices=[game[0] for game in games]
     if form.validate_on_submit():
+        print(form.names)
+        form.names.choices=[game[0] for game in games]
         name=request.form["names"]
         price=request.form["price"]
         desc=request.form["desc"]
@@ -84,7 +85,7 @@ def edit():
         blob=photo.read()
         print(name)
         print(price)
-    
+
     return render_template("edit.html",games=games,menu=menu,form=form)
 
 @app.route("/exit")
