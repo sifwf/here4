@@ -2188,3 +2188,40 @@
 2026-07-18 13:18:33,900 - INFO -  * Restarting with stat
 2026-07-18 13:18:34,186 - WARNING -  * Debugger is active!
 2026-07-18 13:18:34,188 - INFO -  * Debugger PIN: 472-748-066
+2026-07-18 14:32:00,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-18 14:32:00,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-18 14:32:00,731 - INFO -  * Restarting with stat
+2026-07-18 14:32:01,333 - WARNING -  * Debugger is active!
+2026-07-18 14:32:01,344 - INFO -  * Debugger PIN: 957-591-222
+2026-07-18 14:32:05,829 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:05] "GET / HTTP/1.1" 200 -
+2026-07-18 14:32:06,071 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:06] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-07-18 14:32:06,122 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-18 14:32:07,628 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:07] "[32mGET /edit HTTP/1.1[0m" 302 -
+2026-07-18 14:32:07,674 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:07] "GET /login?next=/edit HTTP/1.1" 200 -
+2026-07-18 14:32:07,707 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-18 14:32:13,840 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:13] "GET /register HTTP/1.1" 200 -
+2026-07-18 14:32:13,874 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-18 14:32:25,220 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:25] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-07-18 14:32:25,228 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:25] "GET /login HTTP/1.1" 200 -
+2026-07-18 14:32:25,270 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-18 14:32:29,677 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-07-18 14:32:29,683 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:29] "GET / HTTP/1.1" 200 -
+2026-07-18 14:32:29,749 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-18 14:32:30,949 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:30] "[35m[1mGET /edit HTTP/1.1[0m" 500 -
+2026-07-18 14:32:31,011 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:31] "GET /edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-18 14:32:31,028 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:31] "GET /edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-18 14:32:31,091 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:31] "GET /edit?__debugger__=yes&cmd=resource&f=console.png&s=ysv8BebqguNrjkFvRAeM HTTP/1.1" 200 -
+2026-07-18 14:32:31,134 - INFO - 127.0.0.1 - - [18/Jul/2026 14:32:31] "GET /edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-18 14:34:04,239 - INFO -  * Detected change in 'D:\\my_projects\\OsvitechLessons\\Dmytro_python\\here4\\forms.py', reloading
+2026-07-18 14:34:04,280 - INFO -  * Restarting with stat
+2026-07-18 14:34:04,933 - WARNING -  * Debugger is active!
+2026-07-18 14:34:04,943 - INFO -  * Debugger PIN: 957-591-222
+2026-07-18 14:34:15,042 - INFO -  * Detected change in 'D:\\my_projects\\OsvitechLessons\\Dmytro_python\\here4\\forms.py', reloading
+2026-07-18 14:34:15,085 - INFO -  * Restarting with stat
+2026-07-18 14:34:15,684 - WARNING -  * Debugger is active!
+2026-07-18 14:34:15,694 - INFO -  * Debugger PIN: 957-591-222
+2026-07-18 14:34:58,034 - INFO - 127.0.0.1 - - [18/Jul/2026 14:34:58] "GET /edit HTTP/1.1" 200 -
+2026-07-18 14:34:58,243 - INFO - 127.0.0.1 - - [18/Jul/2026 14:34:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-18 14:35:02,466 - INFO - 127.0.0.1 - - [18/Jul/2026 14:35:02] "GET /edit HTTP/1.1" 200 -
+2026-07-18 14:35:02,493 - INFO - 127.0.0.1 - - [18/Jul/2026 14:35:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
