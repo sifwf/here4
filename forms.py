@@ -40,3 +40,7 @@ class Edit_form(FlaskForm):
     release=DateField("release",validators=[])
     photo=FileField("photo",validators=[])
     submit=SubmitField("submit")
+
+class Delete_form(FlaskForm):
+    names=SelectField(choices=[])
+    submit=SubmitField("submit")

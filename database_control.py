@@ -80,6 +80,17 @@ class Flaskdb:
             return True
         return False
 
+    def update_game_by_name(self,name,price,desc,release,photo):
+        self.__cur.execute("""UPDATE games
+                           SET price=?,
+                               desc=?,
+                               release=?,
+                               photo=?
+                            WHERE name=?""",(price,desc,release,photo,name))
+        self.__db.commit()
 
-    
+    def delete_game_by_name(self,name):
+        self.__cur.execute("DELETE FROM games WHERE name=? ",(name,))
+        self.__db.commit()
+
     

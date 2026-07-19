@@ -1,3 +1,22 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="form_cont">
+    <h1 class="head">Delete game</h1>
+<form class="auth" action="/delete" method="post" novalidate>
+    {{form.hidden_tag()}}
+    <div class="form">{{form.names()}}</div>
+    {%if form.names.errors%}
+        <span class="invalid-feedback">
+            {%for e in form.names.errors%}
+                {{e}}<br>
+            {%endfor%}
+        </span>
+    {%endif%}
+    <div class="button">{{form.submit()}}</div>
+
+    {%for cat, msg in get_flashed_messages(True)%}
+      <div class="flash-{{cat}}">{{msg}}</div>
+    {%endfor%}
+    
+    </div>
 {% endblock %}
