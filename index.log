@@ -2225,3 +2225,43 @@
 2026-07-18 14:34:58,243 - INFO - 127.0.0.1 - - [18/Jul/2026 14:34:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2026-07-18 14:35:02,466 - INFO - 127.0.0.1 - - [18/Jul/2026 14:35:02] "GET /edit HTTP/1.1" 200 -
 2026-07-18 14:35:02,493 - INFO - 127.0.0.1 - - [18/Jul/2026 14:35:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 12:59:42,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 12:59:42,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-19 12:59:42,918 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-19 12:59:42,918 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-19 12:59:42,920 - INFO -  * Restarting with stat
+2026-07-19 12:59:42,921 - INFO -  * Restarting with stat
+2026-07-19 12:59:43,508 - WARNING -  * Debugger is active!
+2026-07-19 12:59:43,508 - WARNING -  * Debugger is active!
+2026-07-19 12:59:43,519 - INFO -  * Debugger PIN: 957-591-222
+2026-07-19 12:59:43,569 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:43] "GET / HTTP/1.1" 200 -
+2026-07-19 12:59:43,747 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-07-19 12:59:50,204 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:50] "GET /edit HTTP/1.1" 200 -
+2026-07-19 12:59:50,223 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 12:59:56,510 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:56] "GET /add HTTP/1.1" 200 -
+2026-07-19 12:59:56,530 - INFO - 127.0.0.1 - - [19/Jul/2026 12:59:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:03,922 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:04,948 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:04] "GET /add HTTP/1.1" 200 -
+2026-07-19 13:00:04,967 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:35,573 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:35] "[32mPOST /add HTTP/1.1[0m" 302 -
+2026-07-19 13:00:35,594 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:35] "GET /my_games HTTP/1.1" 200 -
+2026-07-19 13:00:35,616 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:38,441 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:38] "GET /edit HTTP/1.1" 200 -
+2026-07-19 13:00:38,458 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:45,114 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:45] "GET /add HTTP/1.1" 200 -
+2026-07-19 13:00:45,132 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:46,173 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:46] "GET /my_games HTTP/1.1" 200 -
+2026-07-19 13:00:46,191 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:00:48,621 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:48] "GET /add HTTP/1.1" 200 -
+2026-07-19 13:00:48,639 - INFO - 127.0.0.1 - - [19/Jul/2026 13:00:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-19 13:03:03,004 - INFO -  * Detected change in 'd:\\my_projects\\OsvitechLessons\\Dmytro_python\\here4\\main.py', reloading
+2026-07-19 13:03:03,004 - INFO -  * Detected change in 'd:\\my_projects\\OsvitechLessons\\Dmytro_python\\here4\\main.py', reloading
+2026-07-19 13:03:03,056 - INFO -  * Restarting with stat
+2026-07-19 13:03:03,704 - WARNING -  * Debugger is active!
+2026-07-19 13:03:03,705 - WARNING -  * Debugger is active!
+2026-07-19 13:03:03,714 - INFO -  * Debugger PIN: 957-591-222
+2026-07-19 13:03:03,714 - INFO -  * Debugger PIN: 957-591-222
+2026-07-19 13:03:05,325 - INFO - 127.0.0.1 - - [19/Jul/2026 13:03:05] "GET /edit HTTP/1.1" 200 -
+2026-07-19 13:03:05,496 - INFO - 127.0.0.1 - - [19/Jul/2026 13:03:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

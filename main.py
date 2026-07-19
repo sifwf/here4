@@ -74,9 +74,9 @@ def edit():
     gamesid=dbase.get_gamesid_by_userid(userid)
     games=dbase.get_games(gamesid)
     form=Edit_form()
+    form.names.choices=[game[0] for game in games]
     if form.validate_on_submit():
         print(type(form.names))
-        form.names.choices=[game[0] for game in games]
         name=request.form["names"]
         price=request.form["price"]
         desc=request.form["desc"]
