@@ -57,6 +57,20 @@ class Flaskdb:
             return games_id_list
         else:
             return []
+    
+    def get_current_game_id(self, name):
+        self.__cur.execute("SELECT id FROM games WHERE name=?", (name,))
+        res = self.__cur.fetchone()
+        if res:
+            return res[0]
+        else:
+            print(f"[DEBUG] game_id for game {name} don't exists")
+            return None
+    
+    def delete_game_connection_by_gameid(self, user_id, game_id):
+        self.__cur.execute("DELETE FROM connect WHERE user_id = ? and id = ?  ", 
+                            (user_id, game_id))
+        self.__db.commit()
         
     def get_game_by_id(self,id):
         self.__cur.execute("SELECT name,price,desc,release,photo FROM games WHERE id=?",(id,))
@@ -91,6 +105,7 @@ class Flaskdb:
 
     def delete_game_by_name(self,name):
         self.__cur.execute("DELETE FROM games WHERE name=? ",(name,))
+        print(f"[DEBUG] Game {name} deleted")
         self.__db.commit()
 
     

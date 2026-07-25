@@ -48,13 +48,15 @@ def delete():
     userid=current_user.id
     gamesid=dbase.get_gamesid_by_userid(userid)
     games=dbase.get_games(gamesid)
-    if not games:
-        print(games)
+    if games:
         form.names.choices=[game[0] for game in games]
     if form.validate_on_submit():
         names=request.form["names"]
-        dbase.delete_game_by_name(names)
-        print(names)
+        if names:
+            game_id = dbase.get_current_game_id(names)
+            dbase.delete_game_connection_by_gameid(userid, game_id)
+            dbase.delete_game_by_name(names)
+            print(names)
     return render_template("delete.html",menu=menu,form=form)
 
 @app.route("/add",methods=["POST","GET"])
