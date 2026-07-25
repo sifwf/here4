@@ -4,7 +4,7 @@ import logging
 import base64
 from config import menu
 from database_control import Flaskdb
-from forms import Register_form,Login_form,Games_form,Edit_form
+from forms import Register_form,Login_form,Games_form,Edit_form,Delete_form
 from flask_db import get_db,create_db
 from werkzeug.security import check_password_hash,generate_password_hash
 from flask_login import login_user,logout_user,login_required,current_user,LoginManager
@@ -41,10 +41,21 @@ def main():
 
 
 
-@app.route("/delete")
+@app.route("/delete",methods=["POST","GET"])
 @login_required
 def delete():
-    return render_template("delete.html",menu=menu)
+    form=Delete_form()
+    userid=current_user.id
+    gamesid=dbase.get_gamesid_by_userid(userid)
+    games=dbase.get_games(gamesid)
+    if not games:
+        print(games)
+        form.names.choices=[game[0] for game in games]
+    if form.validate_on_submit():
+        names=request.form["names"]
+        dbase.delete_game_by_name(names)
+        print(names)
+    return render_template("delete.html",menu=menu,form=form)
 
 @app.route("/add",methods=["POST","GET"])
 @login_required
@@ -74,15 +85,17 @@ def edit():
     gamesid=dbase.get_gamesid_by_userid(userid)
     games=dbase.get_games(gamesid)
     form=Edit_form()
+    form.names.choices=[game[0] for game in games]
     if form.validate_on_submit():
-        print(form.names)
-        form.names.choices=[game[0] for game in games]
+        print(type(form.names))
         name=request.form["names"]
         price=request.form["price"]
         desc=request.form["desc"]
         release=request.form["release"]
         photo=request.files["photo"]
         blob=photo.read()
+        dbase.update_game_by_name(name,price,desc,release,blob)
+
         print(name)
         print(price)
 

@@ -33,8 +33,14 @@ class Games_form(FlaskForm):
 
 class Edit_form(FlaskForm):
 
+    names = SelectField(choices=[])
+
     price=StringField("price",validators=[Length(min=1,max=5,message="too much")],render_kw={"placeholder":'price'})
     desc=TextAreaField("desc",validators=[])
     release=DateField("release",validators=[])
     photo=FileField("photo",validators=[])
+    submit=SubmitField("submit")
+
+class Delete_form(FlaskForm):
+    names=SelectField(choices=[])
     submit=SubmitField("submit")
